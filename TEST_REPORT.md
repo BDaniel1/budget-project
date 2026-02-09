@@ -2,14 +2,14 @@
 
 This report is a summary of all unit testing performed on the **budget project**.
 
-## 🔬 Testing Environment
+## Testing Environment
 
 * **JUnit**: version 5.x
 * **Java**: version 17
 * **OS**: Windows 11 Home
 * **Database**: SQLite
 
-## 📰 Test Overviews
+## Test Overviews
 
 #### Controllers:
 | Test # | Description                             | Pass? | Comments                               |
@@ -48,6 +48,6 @@ This report is a summary of all unit testing performed on the **budget project**
 #### Build Console Log:
 ![Testing Log](assets/test_log.png)
 
-## 🐛 Known Bugs
+## Known Bugs
 * No known bugs at this time
 * Refer to README.md for known issues
