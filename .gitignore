@@ -1,2 +1,4 @@
 # Ignoring the .idea folder
 .idea/
+/target/
+/data/*.db
