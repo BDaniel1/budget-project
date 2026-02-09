@@ -4,6 +4,18 @@ This project is a simple budget tracker for anyone to use. It is written using J
 ## Tech Stack
 Java, JavaFX, Maven, SQLite, JUnit 5, MVC architecture
 
+## Project Structure
+- `src/main/java/com/brdaniel/budgetproject/` - Application source (MVC)
+  - `controllers/` - JavaFX controllers
+  - `models/` - Domain models (e.g., `Transaction`)
+  - `services/` - Business logic and persistence services
+  - `view/` - UI helper windows (confirmation/error dialogs)
+- `src/main/resources/view/` - JavaFX FXML views
+- `src/test/java/com/brdaniel/budgetproject/` - Unit tests (JUnit)
+- `assets/` - Demo video and test output screenshot
+- `pom.xml` - Maven build configuration
+- `TEST_REPORT.md` - Unit test summary
+
 ## Demo Video
 Demo video located in /assets/DEMO_VIDEO.mp4  
 
