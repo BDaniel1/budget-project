@@ -7,41 +7,39 @@ Java, JavaFX, Maven, SQLite, JUnit 5, MVC architecture
 ## Demo Video
 Demo video located in /assets/DEMO_VIDEO.mp4  
 
-## Setup Instructions
-1. **Clone Repository**  
-    ```bash
-    git clone https://github.com/BDaniel1/budget-project.git
-    ```
-2. **Navigate to Project Folder**
-    ```bash
-    cd budget-project
-    ```
-3. **Start the Application**
-    ```bash
-    mvn javafx:run
-    ```
-Ensure you have Maven and JDK 17+ installed.
+## Setup
+
+### Prerequisites
+- JDK 17+
+- Maven
+
+### Run
+```bash
+git clone https://github.com/BDaniel1/budget-project.git
+cd budget-project
+mvn javafx:run
+```
 
 ## Features
-* Budget entries support CRUD operations
-* Summary page overview
-* Pie chart visualization of expenses
-* Entry form with input validation
-* Transaction list with sorting & filtering
-* SQLite database support for persistent data handling
+* CRUD operations for budget entries
+* Summary dashboard with income, expenses, and net balance
+* Pie chart expense visualization
+* Input validation for transaction forms
+* Transaction list with sorting and filtering
+* SQLite persistence for local data storage
 
-## Known Issues
-* Most exceptions are handled by printing the stack trace
-* Filtering & Sorting settings are not saved between runs
-* Lack of user authentication
-* FXML files were built with JavaFX API version 23.0.1, while the runtime is version 17.0.9
-   * No current known issues with this version conflict
+## Known Issues / Limitations
+* Some exceptions currently log stack traces instead of user-friendly messages
+* Sorting and filtering preferences are not saved between runs
+* No user authentication implemented
+* FXML built with JavaFX API 23.0.1 while runtime is 17.0.9 (no observed issues)
 
 ## Testing
-For test report, click this link: [Test Report](TEST_REPORT.md).  
+Unit tests written with JUnit.
+See the test report: [Test Report](TEST_REPORT.md).  
 JUnit was used for all unit tests.
 
 ## Author Information
 **Bryan Daniel**  
 CompSci & Cybersec Student  
-[GitHub Profile](https://github.com/BDaniel1)
+GitHub: https://github.com/BDaniel1
