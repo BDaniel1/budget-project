@@ -17,7 +17,7 @@ Java, JavaFX, Maven, SQLite, JUnit 5
 - `TEST_REPORT.md` - Unit test summary
 
 ## Demo
-A short walkthrough of the application: [Demo Video](assets/DEMO_VIDEO.mp4) 
+A short walkthrough of the application: [Download Demo Video (MP4)](https://github.com/BDaniel1/budget-project/raw/refs/heads/main/assets/DEMO_VIDEO.mp4)
 
 ## Setup
 
